@@ -1,0 +1,277 @@
+{"kind":"deck","id":"pr/m2bg8h","name":"Deck"}
+{"kind":"layout","layoutId":"1f423f3f-6708-4d58-a940-77c41c5d97cc","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"3f24bcf7-6778-42a0-a3ed-4128bd673539","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/rtthp3","slide":1,"title":"R","textShapes":10}
+{"kind":"shape","id":"sh/3ed0j2tg","slide":1,"bbox":[0,0,1600,900]}
+{"kind":"shape","id":"sh/4fm1s7a1","slide":1,"bbox":[930,145,475,475]}
+{"kind":"shape","id":"sh/pgfilcbm","slide":1,"bbox":[966,181,403,403]}
+{"kind":"textbox","id":"sh/qhojuhs7","slide":1,"text":"R","textPreview":"R","textChars":1,"textLines":1,"bbox":[1038,272,250,188]}
+{"kind":"textbox","id":"sh/cj61wrax","slide":1,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,276,540,92]}
+{"kind":"textbox","id":"sh/dkfipwbi","slide":1,"text":"Strategic Design Proposal","textPreview":"Strategic Design Proposal","textChars":25,"textLines":1,"bbox":[78,378,560,48]}
+{"kind":"textbox","id":"sh/6lkzidcn","slide":1,"text":"Versione 0.1","textPreview":"Versione 0.1","textChars":12,"textLines":1,"bbox":[78,642,220,26]}
+{"kind":"textbox","id":"sh/7mt0bit8","slide":1,"text":"Una proposta per la prossima fase del brand, del prodotto e dell'esperienza.","textPreview":"Una proposta per la prossima fase del brand, del prodotto e dell'esperienza.","textChars":76,"textLines":1,"bbox":[78,688,620,42]}
+{"kind":"shape","id":"sh/nm5wjqlg","slide":1,"bbox":[76,790,1448,1]}
+{"kind":"shape","id":"sh/2lwfqlkv","slide":1,"bbox":[78,820,190,52]}
+{"kind":"textbox","id":"sh/po7elg3m","slide":1,"text":"RECOVERY","textPreview":"RECOVERY","textChars":8,"textLines":1,"bbox":[100,834,146,24]}
+{"kind":"shape","id":"sh/onexsv21","slide":1,"bbox":[346,820,198,52]}
+{"kind":"textbox","id":"sh/fy5wf6lk","slide":1,"text":"NUTRITION","textPreview":"NUTRITION","textChars":9,"textLines":1,"bbox":[368,834,154,24]}
+{"kind":"shape","id":"sh/exwvm1kz","slide":1,"bbox":[622,820,226,52]}
+{"kind":"textbox","id":"sh/1knehg3a","slide":1,"text":"BIOMARKERS","textPreview":"BIOMARKERS","textChars":10,"textLines":1,"bbox":[644,834,182,24]}
+{"kind":"shape","id":"sh/0zedob25","slide":1,"bbox":[926,820,196,52]}
+{"kind":"textbox","id":"sh/rulwb6l8","slide":1,"text":"COACHING","textPreview":"COACHING","textChars":8,"textLines":1,"bbox":[948,834,152,24]}
+{"kind":"textbox","id":"sh/6tcvi1kn","slide":1,"text":"01 / 12","textPreview":"01 / 12","textChars":7,"textLines":1,"bbox":[1440,835,85,28]}
+{"kind":"image","id":"im/e9cr6lkv","slide":1,"name":"","alt":"RE-COMP logo","bbox":[76,62,240,42]}
+{"kind":"notes","id":"nt/rtthp3","slide":1,"text":""}
+{"kind":"slide","id":"sl/vh7lzd","slide":2,"title":"RE-COMP","textShapes":19}
+{"kind":"textbox","id":"sh/n21wfix4","slide":2,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/83udonep","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/943ehsfu","slide":2,"text":"Perche questo documento","textPreview":"Perche questo documento","textChars":23,"textLines":1,"bbox":[96,230,500,150]}
+{"kind":"textbox","id":"sh/ydsvidg7","slide":2,"text":"Mette ordine nel lavoro fatto e propone una direzione unica per prodotto, brand ed esperienza.","textPreview":"Mette ordine nel lavoro fatto e propone una direzione unica per prodotto, brand ed esperienza.","textChars":94,"textLines":1,"bbox":[98,420,470,82]}
+{"kind":"shape","id":"sh/ze1wbixs","slide":2,"bbox":[610,90,1,1]}
+{"kind":"shape","id":"sh/0fadknyd","slide":2,"bbox":[800,160,2,570]}
+{"kind":"shape","id":"sh/lgjed8fy","slide":2,"bbox":[792,172,18,18]}
+{"kind":"textbox","id":"sh/i9cfuxwr","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[850,148,60,24]}
+{"kind":"textbox","id":"sh/jalwn2xc","slide":2,"text":"Workshop","textPreview":"Workshop","textChars":8,"textLines":1,"bbox":[850,182,330,34]}
+{"kind":"textbox","id":"sh/vqtwjil8","slide":2,"text":"Obiettivi, bisogni e priorita.","textPreview":"Obiettivi, bisogni e priorita.","textChars":30,"textLines":1,"bbox":[850,221,330,44]}
+{"kind":"shape","id":"sh/apkfqdkn","slide":2,"bbox":[792,290,18,18]}
+{"kind":"textbox","id":"sh/xsbels3e","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[850,266,60,24]}
+{"kind":"textbox","id":"sh/wr2xsn2t","slide":2,"text":"Analisi prodotto","textPreview":"Analisi prodotto","textChars":16,"textLines":1,"bbox":[850,300,330,34]}
+{"kind":"textbox","id":"sh/jutgni1k","slide":2,"text":"Flussi, contenuti e punti di frizione.","textPreview":"Flussi, contenuti e punti di frizione.","textChars":38,"textLines":1,"bbox":[850,339,330,44]}
+{"kind":"shape","id":"sh/itkfuxkz","slide":2,"bbox":[792,408,18,18]}
+{"kind":"textbox","id":"sh/5wbypsja","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[850,384,60,24]}
+{"kind":"textbox","id":"sh/kv2xwn2p","slide":2,"text":"Audit","textPreview":"Audit","textChars":5,"textLines":1,"bbox":[850,418,330,34]}
+{"kind":"textbox","id":"sh/7idgr21g","slide":2,"text":"Cosa va preservato e cosa va chiarito.","textPreview":"Cosa va preservato e cosa va chiarito.","textChars":38,"textLines":1,"bbox":[850,457,330,44]}
+{"kind":"shape","id":"sh/6x4fyxkv","slide":2,"bbox":[792,526,18,18]}
+{"kind":"textbox","id":"sh/2p8r658f","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[850,502,60,24]}
+{"kind":"textbox","id":"sh/nqh8fqp0","slide":2,"text":"Benchmark","textPreview":"Benchmark","textChars":9,"textLines":1,"bbox":[850,536,330,34]}
+{"kind":"textbox","id":"sh/orq98vql","slide":2,"text":"Principi utili dai riferimenti migliori.","textPreview":"Principi utili dai riferimenti migliori.","textChars":40,"textLines":1,"bbox":[850,575,330,44]}
+{"kind":"shape","id":"sh/pszqh076","slide":2,"bbox":[792,644,18,18]}
+{"kind":"textbox","id":"sh/e1or2l83","slide":2,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[850,620,60,24]}
+{"kind":"textbox","id":"sh/f2h8bq9o","slide":2,"text":"Esplorazione","textPreview":"Esplorazione","textChars":12,"textLines":1,"bbox":[850,654,330,34]}
+{"kind":"textbox","id":"sh/0nq94vq9","slide":2,"text":"UI, brand, social e asset visivi.","textPreview":"UI, brand, social e asset visivi.","textChars":33,"textLines":1,"bbox":[850,693,330,44]}
+{"kind":"notes","id":"nt/vh7lzd","slide":2,"text":""}
+{"kind":"slide","id":"sl/a1iemo","slide":3,"title":"RE-COMP","textShapes":14}
+{"kind":"textbox","id":"sh/6psbid0r","slide":3,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/tsjadsz2","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/sratknih","slide":3,"text":"RE-COMP non deve diventare piu complicato.","textPreview":"RE-COMP non deve diventare piu complicato.","textChars":42,"textLines":1,"bbox":[118,220,1120,72]}
+{"kind":"textbox","id":"sh/fu1sf2h8","slide":3,"text":"Deve diventare piu leggibile.","textPreview":"Deve diventare piu leggibile.","textChars":29,"textLines":1,"bbox":[118,300,940,72]}
+{"kind":"textbox","id":"sh/etsbmx0n","slide":3,"text":"Il prodotto ha gia profondita. La sfida e far lavorare insieme dati, moduli, guida, contenuti e azioni.","textPreview":"Il prodotto ha gia profondita. La sfida e far lavorare insieme dati, moduli, guida, contenuti e azioni.","textChars":103,"textLines":1,"bbox":[122,420,720,80]}
+{"kind":"shape","id":"sh/1w3ahsze","slide":3,"bbox":[120,650,330,1]}
+{"kind":"textbox","id":"sh/gvatonit","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[120,676,54,30]}
+{"kind":"textbox","id":"sh/3ilsj2h4","slide":3,"text":"C'e tanto valore","textPreview":"C'e tanto valore","textChars":16,"textLines":1,"bbox":[190,670,250,34]}
+{"kind":"textbox","id":"sh/2hcbqx0z","slide":3,"text":"Il materiale di partenza e serio e ricco.","textPreview":"Il materiale di partenza e serio e ricco.","textChars":41,"textLines":1,"bbox":[190,710,300,52]}
+{"kind":"shape","id":"sh/kb6pknal","slide":3,"bbox":[575,650,330,1]}
+{"kind":"textbox","id":"sh/5cf6dsb6","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[575,676,54,30]}
+{"kind":"textbox","id":"sh/i9onixsf","slide":3,"text":"Il sistema va reso piu chiaro","textPreview":"Il sistema va reso piu chiaro","textChars":29,"textLines":1,"bbox":[645,670,250,34]}
+{"kind":"textbox","id":"sh/jaxob2t0","slide":3,"text":"Le parti devono parlarsi meglio.","textPreview":"Le parti devono parlarsi meglio.","textChars":32,"textLines":1,"bbox":[645,710,300,52]}
+{"kind":"shape","id":"sh/szqpo7ah","slide":3,"bbox":[1030,650,330,1]}
+{"kind":"textbox","id":"sh/t0z6hcr2","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1030,676,54,30]}
+{"kind":"textbox","id":"sh/6do7mxsr","slide":3,"text":"La guida e il filo","textPreview":"La guida e il filo","textChars":18,"textLines":1,"bbox":[1100,670,250,34]}
+{"kind":"textbox","id":"sh/rehof2tw","slide":3,"text":"Ogni dato deve portare a una scelta.","textPreview":"Ogni dato deve portare a una scelta.","textChars":36,"textLines":1,"bbox":[1100,710,300,52]}
+{"kind":"notes","id":"nt/a1iemo","slide":3,"text":""}
+{"kind":"slide","id":"sl/8a0hk9","slide":4,"title":"RE-COMP","textShapes":12}
+{"kind":"textbox","id":"sh/7qpkjmt8","slide":4,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/srils7ut","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/tsr2lcby","slide":4,"text":"Da funzioni a sistema","textPreview":"Da funzioni a sistema","textChars":21,"textLines":1,"bbox":[96,150,620,70]}
+{"kind":"textbox","id":"sh/ylg3mxcb","slide":4,"text":"La vera opportunita e aiutare l'utente a capire cosa fare, non solo a leggere numeri.","textPreview":"La vera opportunita e aiutare l'utente a capire cosa fare, non solo a leggere numeri.","textChars":85,"textLines":1,"bbox":[100,235,650,72]}
+{"kind":"shape","id":"sh/jmpkf2tw","slide":4,"bbox":[155,465,250,120]}
+{"kind":"textbox","id":"sh/knylo7uh","slide":4,"text":"Segnali","textPreview":"Segnali","textChars":7,"textLines":1,"bbox":[179,506,202,34]}
+{"kind":"textbox","id":"sh/lo72hcb2","slide":4,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[422,505,50,40]}
+{"kind":"shape","id":"sh/2h03y1cv","slide":4,"bbox":[485,465,250,120]}
+{"kind":"textbox","id":"sh/3i94r6tg","slide":4,"text":"Comprensione","textPreview":"Comprensione","textChars":12,"textLines":1,"bbox":[509,506,202,34]}
+{"kind":"textbox","id":"sh/ryx87a9g","slide":4,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[752,505,50,40]}
+{"kind":"shape","id":"sh/6xo7y58v","slide":4,"bbox":[815,465,250,120]}
+{"kind":"textbox","id":"sh/t0fq9krm","slide":4,"text":"Guida","textPreview":"Guida","textChars":5,"textLines":1,"bbox":[839,506,202,34]}
+{"kind":"textbox","id":"sh/sz6p0fq1","slide":4,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[1082,505,50,40]}
+{"kind":"shape","id":"sh/f2h8ba9s","slide":4,"bbox":[1145,465,250,120]}
+{"kind":"textbox","id":"sh/e1o72587","slide":4,"text":"Azione quotidiana","textPreview":"Azione quotidiana","textChars":17,"textLines":1,"bbox":[1169,506,202,34]}
+{"kind":"textbox","id":"sh/1ozqdkri","slide":4,"text":"Health OS","textPreview":"Health OS","textChars":9,"textLines":1,"bbox":[612,665,360,56]}
+{"kind":"shape","id":"sh/gnqp4fqd","slide":4,"bbox":[510,642,560,1]}
+{"kind":"notes","id":"nt/8a0hk9","slide":4,"text":""}
+{"kind":"slide","id":"sl/lulv4f","slide":5,"title":"RE-COMP","textShapes":15}
+{"kind":"textbox","id":"sh/r2t03ipc","slide":5,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/s321cn6x","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/d4bi5s7i","slide":5,"text":"Ogni schermata importante deve aiutare una decisione.","textPreview":"Ogni schermata importante deve aiutare una decisione.","textChars":53,"textLines":1,"bbox":[96,146,830,132]}
+{"kind":"shape","id":"sh/ix0z6dov","slide":5,"bbox":[96,380,330,1]}
+{"kind":"textbox","id":"sh/3yt0zipg","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[96,408,54,28]}
+{"kind":"textbox","id":"sh/4z2h8n61","slide":5,"text":"Una decisione alla volta","textPreview":"Una decisione alla volta","textChars":24,"textLines":1,"bbox":[168,402,300,70]}
+{"kind":"shape","id":"sh/50bi1s76","slide":5,"bbox":[566,380,330,1]}
+{"kind":"textbox","id":"sh/2t4jihoz","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[566,408,54,28]}
+{"kind":"textbox","id":"sh/nud0b2pk","slide":5,"text":"Contesto prima dell'azione","textPreview":"Contesto prima dell'azione","textChars":26,"textLines":1,"bbox":[638,402,300,70]}
+{"kind":"shape","id":"sh/7u1obyxs","slide":5,"bbox":[1036,380,330,1]}
+{"kind":"textbox","id":"sh/6tsnitw7","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1036,408,54,28]}
+{"kind":"textbox","id":"sh/twj6d8fy","slide":5,"text":"Guida prima del tracking","textPreview":"Guida prima del tracking","textChars":24,"textLines":1,"bbox":[1108,402,300,70]}
+{"kind":"shape","id":"sh/sva5k3ed","slide":5,"bbox":[96,550,330,1]}
+{"kind":"textbox","id":"sh/fylofid4","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[96,578,54,28]}
+{"kind":"textbox","id":"sh/uxsnmdwj","slide":5,"text":"Evidenza prima della decorazione","textPreview":"Evidenza prima della decorazione","textChars":32,"textLines":1,"bbox":[168,572,300,70]}
+{"kind":"shape","id":"sh/h036h8vu","slide":5,"bbox":[566,550,330,1]}
+{"kind":"textbox","id":"sh/gzu5one9","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[566,578,54,28]}
+{"kind":"textbox","id":"sh/32lojid0","slide":5,"text":"Prima le persone, poi la tecnologia","textPreview":"Prima le persone, poi la tecnologia","textChars":35,"textLines":1,"bbox":[638,572,300,70]}
+{"kind":"shape","id":"sh/21cnqdwf","slide":5,"bbox":[1036,550,330,1]}
+{"kind":"textbox","id":"sh/ehgrihgn","slide":5,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1036,578,54,28]}
+{"kind":"textbox","id":"sh/zip8bmx8","slide":5,"text":"Continuita, non dashboard isolate","textPreview":"Continuita, non dashboard isolate","textChars":33,"textLines":1,"bbox":[1108,572,300,70]}
+{"kind":"notes","id":"nt/lulv4f","slide":5,"text":""}
+{"kind":"slide","id":"sl/8qc7ud","slide":6,"title":"RE-COMP","textShapes":16}
+{"kind":"textbox","id":"sh/6xc3utgb","slide":6,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/t032pofm","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/szulwjy1","slide":6,"text":"La direzione non nasce dal gusto.","textPreview":"La direzione non nasce dal gusto.","textChars":33,"textLines":1,"bbox":[96,104,1040,64]}
+{"kind":"textbox","id":"sh/ja1kjexk","slide":6,"text":"Nasce da scelte precise.","textPreview":"Nasce da scelte precise.","textChars":24,"textLines":1,"bbox":[96,170,740,64]}
+{"kind":"shape","id":"sh/i9sjq9gz","slide":6,"bbox":[110,320,565,1]}
+{"kind":"textbox","id":"sh/5w32lofq","slide":6,"text":"Perche superfici chiare?","textPreview":"Perche superfici chiare?","textChars":24,"textLines":1,"bbox":[110,346,290,32]}
+{"kind":"textbox","id":"sh/4va1sjy5","slide":6,"text":"Un prodotto health deve trasmettere calma prima della tecnologia.","textPreview":"Un prodotto health deve trasmettere calma prima della tecnologia.","textChars":65,"textLines":1,"bbox":[430,344,310,60]}
+{"kind":"shape","id":"sh/v61kfuxo","slide":6,"bbox":[815,320,565,1]}
+{"kind":"textbox","id":"sh/u5sjm9g3","slide":6,"text":"Perche momenti scuri?","textPreview":"Perche momenti scuri?","textChars":21,"textLines":1,"bbox":[815,346,290,32]}
+{"kind":"textbox","id":"sh/cby9ovqp","slide":6,"text":"I dati importanti hanno bisogno di priorita e contrasto.","textPreview":"I dati importanti hanno bisogno di priorita e contrasto.","textChars":56,"textLines":1,"bbox":[1135,344,310,60]}
+{"kind":"shape","id":"sh/dc7qhg7a","slide":6,"bbox":[110,470,565,1]}
+{"kind":"textbox","id":"sh/qpgrml8j","slide":6,"text":"Perche fotografia editoriale?","textPreview":"Perche fotografia editoriale?","textChars":29,"textLines":1,"bbox":[110,496,290,32]}
+{"kind":"textbox","id":"sh/rap8fqp4","slide":6,"text":"La fiducia parte dalle persone, non dalle illustrazioni.","textPreview":"La fiducia parte dalle persone, non dalle illustrazioni.","textChars":56,"textLines":1,"bbox":[430,494,310,60]}
+{"kind":"shape","id":"sh/4ny9kbqt","slide":6,"bbox":[815,470,565,1]}
+{"kind":"textbox","id":"sh/po7qdg7e","slide":6,"text":"Perche motion sobrio?","textPreview":"Perche motion sobrio?","textChars":21,"textLines":1,"bbox":[815,496,290,32]}
+{"kind":"textbox","id":"sh/2lgri18n","slide":6,"text":"Il movimento deve spiegare, non intrattenere.","textPreview":"Il movimento deve spiegare, non intrattenere.","textChars":45,"textLines":1,"bbox":[1135,494,310,60]}
+{"kind":"shape","id":"sh/3mp8b698","slide":6,"bbox":[110,620,565,1]}
+{"kind":"textbox","id":"sh/8ji9wfqx","slide":6,"text":"Perche non copiare Apple?","textPreview":"Perche non copiare Apple?","textChars":25,"textLines":1,"bbox":[110,646,290,32]}
+{"kind":"textbox","id":"sh/9kbap07i","slide":6,"text":"Serve la stessa cura, ma con un'identita RE-COMP.","textPreview":"Serve la stessa cura, ma con un'identita RE-COMP.","textChars":49,"textLines":1,"bbox":[430,644,310,60]}
+{"kind":"shape","id":"sh/xonitgva","slide":6,"bbox":[815,620,565,1]}
+{"kind":"textbox","id":"sh/wnehkbep","slide":6,"text":"Perche colori modulari?","textPreview":"Perche colori modulari?","textChars":23,"textLines":1,"bbox":[815,646,290,32]}
+{"kind":"textbox","id":"sh/vm50r6dk","slide":6,"text":"Gli accenti devono dare significato, non decorare.","textPreview":"Gli accenti devono dare significato, non decorare.","textChars":50,"textLines":1,"bbox":[1135,644,310,60]}
+{"kind":"notes","id":"nt/8qc7ud","slide":6,"text":""}
+{"kind":"slide","id":"sl/q109ov","slide":7,"title":"RE-COMP","textShapes":19}
+{"kind":"textbox","id":"sh/ylw7epgn","slide":7,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/lon6p4zy","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/knepgzyd","slide":7,"text":"Prendere principi, non estetiche.","textPreview":"Prendere principi, non estetiche.","textChars":33,"textLines":1,"bbox":[96,108,760,70]}
+{"kind":"textbox","id":"sh/bylojuhw","slide":7,"text":"Il benchmark serve a capire cosa imparare e cosa evitare, non a decidere chi copiare.","textPreview":"Il benchmark serve a capire cosa imparare e cosa evitare, non a decidere chi copiare.","textChars":85,"textLines":1,"bbox":[98,194,690,58]}
+{"kind":"textbox","id":"sh/x0n6l4z2","slide":7,"text":"Apple","textPreview":"Apple","textChars":5,"textLines":1,"bbox":[98,540,160,28]}
+{"kind":"textbox","id":"sh/czepczyh","slide":7,"text":"Impariamo: chiarezza nativa","textPreview":"Impariamo: chiarezza nativa","textChars":27,"textLines":1,"bbox":[300,540,360,26]}
+{"kind":"textbox","id":"sh/vupovex0","slide":7,"text":"Evitiamo: clone iOS","textPreview":"Evitiamo: clone iOS","textChars":19,"textLines":1,"bbox":[720,540,390,26]}
+{"kind":"textbox","id":"sh/utg7m9gv","slide":7,"text":"Superpower","textPreview":"Superpower","textChars":10,"textLines":1,"bbox":[98,592,160,28]}
+{"kind":"textbox","id":"sh/sfadsrq1","slide":7,"text":"Impariamo: tono premium","textPreview":"Impariamo: tono premium","textChars":23,"textLines":1,"bbox":[300,592,360,26]}
+{"kind":"textbox","id":"sh/tgjelwrm","slide":7,"text":"Evitiamo: promesse troppo forti","textPreview":"Evitiamo: promesse troppo forti","textChars":31,"textLines":1,"bbox":[720,592,390,26]}
+{"kind":"textbox","id":"sh/6dsvqh8v","slide":7,"text":"Everlab","textPreview":"Everlab","textChars":7,"textLines":1,"bbox":[98,644,160,28]}
+{"kind":"textbox","id":"sh/7e1wjm9g","slide":7,"text":"Impariamo: fiducia e rigore","textPreview":"Impariamo: fiducia e rigore","textChars":27,"textLines":1,"bbox":[300,644,360,26]}
+{"kind":"textbox","id":"sh/kbadorqp","slide":7,"text":"Evitiamo: freddezza clinica","textPreview":"Evitiamo: freddezza clinica","textChars":27,"textLines":1,"bbox":[720,644,390,26]}
+{"kind":"textbox","id":"sh/5cjehwra","slide":7,"text":"WHOOP","textPreview":"WHOOP","textChars":5,"textLines":1,"bbox":[98,696,160,28]}
+{"kind":"textbox","id":"sh/i98vmh8z","slide":7,"text":"Impariamo: loop quotidiano","textPreview":"Impariamo: loop quotidiano","textChars":26,"textLines":1,"bbox":[300,696,360,26]}
+{"kind":"textbox","id":"sh/jahwfm94","slide":7,"text":"Evitiamo: score senza spiegazione","textPreview":"Evitiamo: score senza spiegazione","textChars":33,"textLines":1,"bbox":[720,696,390,26]}
+{"kind":"textbox","id":"sh/w7qdk7qt","slide":7,"text":"Bevel","textPreview":"Bevel","textChars":5,"textLines":1,"bbox":[98,748,160,28]}
+{"kind":"textbox","id":"sh/x8zedcre","slide":7,"text":"Impariamo: dati leggibili","textPreview":"Impariamo: dati leggibili","textChars":25,"textLines":1,"bbox":[300,748,360,26]}
+{"kind":"textbox","id":"sh/x4ruh8j2","slide":7,"text":"Evitiamo: dashboard troppo dense","textPreview":"Evitiamo: dashboard troppo dense","textChars":32,"textLines":1,"bbox":[720,748,390,26]}
+{"kind":"image","id":"im/fydcv61s","slide":7,"name":"","alt":"Benchmark visual reference","bbox":[820,118,650,365]}
+{"kind":"notes","id":"nt/q109ov","slide":7,"text":""}
+{"kind":"slide","id":"sl/7mb0zs","slide":8,"title":"RE-COMP","textShapes":8}
+{"kind":"textbox","id":"sh/5kjy9ojy","slide":8,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/ih8fytkn","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/jihg7y18","slide":8,"text":"Brand Direction","textPreview":"Brand Direction","textChars":15,"textLines":1,"bbox":[76,118,520,70]}
+{"kind":"textbox","id":"sh/wfqxwj2h","slide":8,"text":"RE-COMP deve sembrare premium, preciso, calmo e vivo. Non una gym app, non un prodotto medico freddo.","textPreview":"RE-COMP deve sembrare premium, preciso, calmo e vivo. Non una gym app, non un prodotto medico freddo.","textChars":101,"textLines":1,"bbox":[78,202,560,90]}
+{"kind":"shape","id":"sh/8r6xsz2l","slide":8,"bbox":[78,575,98,98]}
+{"kind":"textbox","id":"sh/9czy14jq","slide":8,"text":"Recovery","textPreview":"Recovery","textChars":8,"textLines":1,"bbox":[78,690,126,24]}
+{"kind":"shape","id":"sh/1c3ipoji","slide":8,"bbox":[222,575,98,98]}
+{"kind":"textbox","id":"sh/0buhgj2x","slide":8,"text":"Nutrition","textPreview":"Nutrition","textChars":9,"textLines":1,"bbox":[222,690,126,24]}
+{"kind":"shape","id":"sh/za10ne1c","slide":8,"bbox":[366,575,98,98]}
+{"kind":"textbox","id":"sh/e9sze9kr","slide":8,"text":"Biomarkers","textPreview":"Biomarkers","textChars":10,"textLines":1,"bbox":[366,690,126,24]}
+{"kind":"shape","id":"sh/d8jil4j6","slide":8,"bbox":[510,575,98,98]}
+{"kind":"textbox","id":"sh/c7ahcz2l","slide":8,"text":"Coaching","textPreview":"Coaching","textChars":8,"textLines":1,"bbox":[510,690,126,24]}
+{"kind":"image","id":"im/o7udkzyl","slide":8,"name":"","alt":"RE-COMP logo","bbox":[80,370,320,62]}
+{"kind":"image","id":"im/n6lcruh0","slide":8,"name":"","alt":"Generated RE-COMP editorial motion visual","bbox":[760,110,670,390]}
+{"kind":"image","id":"im/m5cvipgf","slide":8,"name":"","alt":"RE-COMP social visual","bbox":[1040,545,260,260]}
+{"kind":"notes","id":"nt/7mb0zs","slide":8,"text":""}
+{"kind":"slide","id":"sl/dx5csp","slide":9,"title":"RE-COMP","textShapes":10}
+{"kind":"textbox","id":"sh/ny5kzqhk","slide":9,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/ozelsvy5","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/90nm1gzq","slide":9,"text":"Calm. Editorial. Intelligent.","textPreview":"Calm. Editorial. Intelligent.","textChars":29,"textLines":1,"bbox":[78,94,870,70]}
+{"kind":"textbox","id":"sh/e9c3m1g3","slide":9,"text":"Il linguaggio RE-COMP nasce da materiali scuri, luce controllata, dati leggibili e presenza umana.","textPreview":"Il linguaggio RE-COMP nasce da materiali scuri, luce controllata, dati leggibili e presenza umana.","textChars":98,"textLines":1,"bbox":[82,180,780,54]}
+{"kind":"shape","id":"sh/q5s3i1gr","slide":9,"bbox":[1136,345,290,82]}
+{"kind":"textbox","id":"sh/r61kr6hc","slide":9,"text":"Soft Metal","textPreview":"Soft Metal","textChars":10,"textLines":1,"bbox":[1160,361,230,26]}
+{"kind":"textbox","id":"sh/fe9kv6hg","slide":9,"text":"superfici principali","textPreview":"superfici principali","textChars":20,"textLines":1,"bbox":[1160,395,230,22]}
+{"kind":"shape","id":"sh/edg3210v","slide":9,"bbox":[1136,457,290,82]}
+{"kind":"textbox","id":"sh/1gr2xgzm","slide":9,"text":"Liquid Glass","textPreview":"Liquid Glass","textChars":12,"textLines":1,"bbox":[1160,473,230,26]}
+{"kind":"textbox","id":"sh/gfil4bi1","slide":9,"text":"solo controlli e overlay","textPreview":"solo controlli e overlay","textChars":24,"textLines":1,"bbox":[1160,507,230,22]}
+{"kind":"shape","id":"sh/3i94z6hs","slide":9,"bbox":[1136,569,290,82]}
+{"kind":"textbox","id":"sh/2h036l07","slide":9,"text":"Light","textPreview":"Light","textChars":5,"textLines":1,"bbox":[1160,585,230,26]}
+{"kind":"textbox","id":"sh/p4rm1gzi","slide":9,"text":"gerarchia, non effetto","textPreview":"gerarchia, non effetto","textChars":22,"textLines":1,"bbox":[1160,619,230,22]}
+{"kind":"image","id":"im/ytc7mpsb","slide":9,"name":"","alt":"Editorial athlete visual","bbox":[80,300,420,360]}
+{"kind":"image","id":"im/lgn6hkrm","slide":9,"name":"","alt":"App home screen","bbox":[548,278,250,420]}
+{"kind":"image","id":"im/kvepofa1","slide":9,"name":"","alt":"Biomarkers screen","bbox":[824,278,250,420]}
+{"kind":"notes","id":"nt/dx5csp","slide":9,"text":""}
+{"kind":"slide","id":"sl/gn8h4x","slide":10,"title":"RE-COMP","textShapes":13}
+{"kind":"textbox","id":"sh/d036tcf6","slide":10,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/qxc7ixwf","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/rylor2x0","slide":10,"text":"Un unico sistema, diversi livelli di profondita.","textPreview":"Un unico sistema, diversi livelli di profondita.","textChars":48,"textLines":1,"bbox":[96,100,980,70]}
+{"kind":"textbox","id":"sh/0nupo7ex","slide":10,"text":"Landing, app e social devono raccontare la stessa idea: RE-COMP aiuta a capire lo stato del corpo e cosa fare dopo.","textPreview":"Landing, app e social devono raccontare la stessa idea: RE-COMP aiuta a capire lo stato del corpo e cosa fare dopo.","textChars":115,"textLines":1,"bbox":[98,184,780,62]}
+{"kind":"textbox","id":"sh/e1c7mhwr","slide":10,"text":"Landing Hero","textPreview":"Landing Hero","textChars":12,"textLines":1,"bbox":[80,615,240,28]}
+{"kind":"textbox","id":"sh/fmlov2xc","slide":10,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[332,438,40,40]}
+{"kind":"textbox","id":"sh/psn61wfe","slide":10,"text":"Living Human System","textPreview":"Living Human System","textChars":19,"textLines":1,"bbox":[380,615,240,28]}
+{"kind":"textbox","id":"sh/1gbu1gfu","slide":10,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[632,438,40,40]}
+{"kind":"textbox","id":"sh/zetczqxo","slide":10,"text":"4 Pillars","textPreview":"4 Pillars","textChars":9,"textLines":1,"bbox":[680,615,240,28]}
+{"kind":"textbox","id":"sh/edkb6lg3","slide":10,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[932,438,40,40]}
+{"kind":"textbox","id":"sh/o3mtwvy5","slide":10,"text":"App","textPreview":"App","textChars":3,"textLines":1,"bbox":[980,615,240,28]}
+{"kind":"textbox","id":"sh/nitc3qx0","slide":10,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[1232,438,40,40]}
+{"kind":"textbox","id":"sh/58rutwzm","slide":10,"text":"Social","textPreview":"Social","textChars":6,"textLines":1,"bbox":[1280,615,240,28]}
+{"kind":"image","id":"im/cr6xwjqt","slide":10,"name":"","alt":"Landing Hero","bbox":[80,340,240,250]}
+{"kind":"image","id":"im/lgzyto7a","slide":10,"name":"","alt":"Living Human System","bbox":[380,340,240,250]}
+{"kind":"image","id":"im/fah8retw","slide":10,"name":"","alt":"4 Pillars","bbox":[680,340,240,250]}
+{"kind":"image","id":"im/mx8r2tsn","slide":10,"name":"","alt":"App","bbox":[980,340,240,250]}
+{"kind":"image","id":"im/90jqxoby","slide":10,"name":"","alt":"Social","bbox":[1280,340,240,250]}
+{"kind":"notes","id":"nt/gn8h4x","slide":10,"text":""}
+{"kind":"slide","id":"sl/ddyi9b","slide":11,"title":"RE-COMP","textShapes":17}
+{"kind":"textbox","id":"sh/dcfi90ny","slide":11,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/qp4jylo7","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/rqd07q5s","slide":11,"text":"Il design system tiene insieme tutto.","textPreview":"Il design system tiene insieme tutto.","textChars":37,"textLines":1,"bbox":[96,104,980,76]}
+{"kind":"textbox","id":"sh/0f614v6p","slide":11,"text":"Prodotto, landing, brand e social devono usare le stesse regole, anche quando hanno ruoli diversi.","textPreview":"Prodotto, landing, brand e social devono usare le stesse regole, anche quando hanno ruoli diversi.","textChars":98,"textLines":1,"bbox":[98,202,760,58]}
+{"kind":"shape","id":"sh/1gf2d0na","slide":11,"bbox":[96,350,360,118]}
+{"kind":"textbox","id":"sh/edoj25oj","slide":11,"text":"Tipografia","textPreview":"Tipografia","textChars":10,"textLines":1,"bbox":[124,378,270,32]}
+{"kind":"textbox","id":"sh/zexkbq54","slide":11,"text":"gerarchia e ritmo","textPreview":"gerarchia e ritmo","textChars":17,"textLines":1,"bbox":[124,418,280,28]}
+{"kind":"shape","id":"sh/ojq18f6l","slide":11,"bbox":[566,350,360,118]}
+{"kind":"textbox","id":"sh/9kz2hkn6","slide":11,"text":"Colori","textPreview":"Colori","textChars":6,"textLines":1,"bbox":[594,378,270,32]}
+{"kind":"textbox","id":"sh/hsza58ze","slide":11,"text":"moduli e stati","textPreview":"moduli e stati","textChars":14,"textLines":1,"bbox":[594,418,280,28]}
+{"kind":"shape","id":"sh/grqtw3it","slide":11,"bbox":[1036,350,360,118]}
+{"kind":"textbox","id":"sh/fqxs3yho","slide":11,"text":"Componenti","textPreview":"Componenti","textChars":10,"textLines":1,"bbox":[1064,378,270,32]}
+{"kind":"textbox","id":"sh/upobut03","slide":11,"text":"azioni riconoscibili","textPreview":"azioni riconoscibili","textChars":20,"textLines":1,"bbox":[1064,418,280,28]}
+{"kind":"shape","id":"sh/pgza98zq","slide":11,"bbox":[96,525,360,118]}
+{"kind":"textbox","id":"sh/4fqt03i5","slide":11,"text":"Spacing","textPreview":"Spacing","textChars":7,"textLines":1,"bbox":[124,553,270,32]}
+{"kind":"textbox","id":"sh/3ehs7yhk","slide":11,"text":"respiro e ordine","textPreview":"respiro e ordine","textChars":16,"textLines":1,"bbox":[124,593,280,28]}
+{"kind":"shape","id":"sh/2t8byd0z","slide":11,"bbox":[566,525,360,118]}
+{"kind":"textbox","id":"sh/lkfaxoj6","slide":11,"text":"Icone","textPreview":"Icone","textChars":5,"textLines":1,"bbox":[594,553,270,32]}
+{"kind":"textbox","id":"sh/kjm9oji1","slide":11,"text":"segnali semplici","textPreview":"segnali semplici","textChars":16,"textLines":1,"bbox":[594,593,280,28]}
+{"kind":"shape","id":"sh/c3qt4jqh","slide":11,"bbox":[1036,525,360,118]}
+{"kind":"textbox","id":"sh/x4zador2","slide":11,"text":"Materiali","textPreview":"Materiali","textChars":9,"textLines":1,"bbox":[1064,553,270,32]}
+{"kind":"textbox","id":"sh/a18b298r","slide":11,"text":"Soft Metal, Glass, Light","textPreview":"Soft Metal, Glass, Light","textChars":24,"textLines":1,"bbox":[1064,593,280,28]}
+{"kind":"textbox","id":"sh/b2hsbe9c","slide":11,"text":"Liquid Glass non e lo stile di RE-COMP. E un materiale funzionale per navigazione, controlli, overlay e stati attivi.","textPreview":"Liquid Glass non e lo stile di RE-COMP. E un materiale funzionale per navigazione, controlli, overlay e stati attivi.","textChars":117,"textLines":1,"bbox":[104,738,1020,40]}
+{"kind":"notes","id":"nt/ddyi9b","slide":11,"text":""}
+{"kind":"slide","id":"sl/xe4iur","slide":12,"title":"RE-COMP","textShapes":27}
+{"kind":"textbox","id":"sh/3qp8r29g","slide":12,"text":"RE-COMP","textPreview":"RE-COMP","textChars":7,"textLines":1,"bbox":[76,48,180,24]}
+{"kind":"textbox","id":"sh/ory9k7q1","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1474,48,50,24]}
+{"kind":"textbox","id":"sh/ps7qtcrm","slide":12,"text":"Costruire prima fiducia. Poi scala.","textPreview":"Costruire prima fiducia. Poi scala.","textChars":35,"textLines":1,"bbox":[94,120,880,70]}
+{"kind":"shape","id":"sh/qtgrmh87","slide":12,"bbox":[96,368,112,112]}
+{"kind":"textbox","id":"sh/bup8vm9c","slide":12,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[96,398,112,24]}
+{"kind":"textbox","id":"sh/cvy9o7qx","slide":12,"text":"Discovery","textPreview":"Discovery","textChars":9,"textLines":1,"bbox":[74,500,156,30]}
+{"kind":"textbox","id":"sh/dg7qxcri","slide":12,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[222,405,40,36]}
+{"kind":"shape","id":"sh/yhgrqh83","slide":12,"bbox":[274,368,112,112]}
+{"kind":"textbox","id":"sh/zi98zm9o","slide":12,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[274,398,112,24]}
+{"kind":"textbox","id":"sh/nq94nqdo","slide":12,"text":"Direction","textPreview":"Direction","textChars":9,"textLines":1,"bbox":[252,500,156,30]}
+{"kind":"textbox","id":"sh/mp0nulc3","slide":12,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[400,405,40,36]}
+{"kind":"shape","id":"sh/9sbmp0vu","slide":12,"bbox":[452,368,112,112]}
+{"kind":"textbox","id":"sh/ori5wvu9","slide":12,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[452,398,112,24]}
+{"kind":"textbox","id":"sh/zm94j6ds","slide":12,"text":"Brand","textPreview":"Brand","textChars":5,"textLines":1,"bbox":[430,500,156,30]}
+{"kind":"textbox","id":"sh/el03qlw7","slide":12,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[578,405,40,36]}
+{"kind":"shape","id":"sh/1ormlgvy","slide":12,"bbox":[630,368,112,112]}
+{"kind":"textbox","id":"sh/0ni5sbud","slide":12,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[630,398,112,24]}
+{"kind":"textbox","id":"sh/jit4vadw","slide":12,"text":"UX","textPreview":"UX","textChars":2,"textLines":1,"bbox":[608,500,156,30]}
+{"kind":"textbox","id":"sh/yhkn25cb","slide":12,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[756,405,40,36]}
+{"kind":"shape","id":"sh/up8zad0v","slide":12,"bbox":[808,368,112,112]}
+{"kind":"textbox","id":"sh/fqhgjy1g","slide":12,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[808,398,112,24]}
+{"kind":"textbox","id":"sh/grqhc3i1","slide":12,"text":"UI","textPreview":"UI","textChars":2,"textLines":1,"bbox":[786,500,156,30]}
+{"kind":"textbox","id":"sh/hszyl8jm","slide":12,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[934,405,40,36]}
+{"kind":"shape","id":"sh/2t8zed07","slide":12,"bbox":[986,368,112,112]}
+{"kind":"textbox","id":"sh/3uhgni1c","slide":12,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[986,398,112,24]}
+{"kind":"textbox","id":"sh/4fqhgnix","slide":12,"text":"Prototype","textPreview":"Prototype","textChars":9,"textLines":1,"bbox":[964,500,156,30]}
+{"kind":"textbox","id":"sh/pgjypsji","slide":12,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[1112,405,40,36]}
+{"kind":"shape","id":"sh/ixof2tkn","slide":12,"bbox":[1164,368,112,112]}
+{"kind":"textbox","id":"sh/jyxgbe18","slide":12,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1164,398,112,24]}
+{"kind":"textbox","id":"sh/1c32hw3q","slide":12,"text":"Development","textPreview":"Development","textChars":11,"textLines":1,"bbox":[1142,500,156,30]}
+{"kind":"textbox","id":"sh/0bu18r25","slide":12,"text":"->","textPreview":"->","textChars":2,"textLines":1,"bbox":[1290,405,40,36]}
+{"kind":"shape","id":"sh/zalkfmlk","slide":12,"bbox":[1342,368,112,112]}
+{"kind":"textbox","id":"sh/e9cj6hkf","slide":12,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1342,398,112,24]}
+{"kind":"textbox","id":"sh/9gn2lw32","slide":12,"text":"Testing","textPreview":"Testing","textChars":7,"textLines":1,"bbox":[1320,500,156,30]}
+{"kind":"textbox","id":"sh/8fu1cr2h","slide":12,"text":"Capire cosa conta. Poi renderlo semplice da usare ogni giorno.","textPreview":"Capire cosa conta. Poi renderlo semplice da usare ogni giorno.","textChars":62,"textLines":1,"bbox":[96,660,880,58]}
+{"kind":"image","id":"im/4729sbap","slide":12,"name":"","alt":"RE-COMP logo","bbox":[1110,660,300,54]}
+{"kind":"notes","id":"nt/xe4iur","slide":12,"text":""}
