@@ -82,7 +82,7 @@ import "./playground.css";
 
 export function DesignPlayground() {
   const [query, setQuery] = useState("");
-  const [selectedId, setSelectedId] = useState("navigation.glass-nav");
+  const [selectedId, setSelectedId] = useState("material.glass-experiments");
   const [mode, setMode] = useState("Playground");
   const [inspectorTab, setInspectorTab] = useState("Configure");
   const [matrixMode, setMatrixMode] = useState("Variants");
@@ -396,7 +396,7 @@ function MiniList({ icon: Icon, items, label, selectedId, setSelectedId }) {
 }
 
 function WorkbenchCanvas(props) {
-  const directComponentPage = props.selected.id === "selection.controls" || props.selected.id === "actions.buttons" || props.selected.id === "actions.iconography" || props.selected.id === "inputs.text" || props.selected.id === "menus.select" || props.selected.id === "navigation.glass-nav" || props.selected.id === "feedback.toast" || props.selected.id === "cards.health" || props.selected.id === "charts.health" || props.selected.id === "tables.base" || props.selected.id === "data.display" || props.selected.id === "media.upload" || props.selected.id === "motion.lab" || props.selected.id === "accessibility.lab" || props.selected.id === "patterns.app";
+  const directComponentPage = props.selected.id === "selection.controls" || props.selected.id === "actions.buttons" || props.selected.id === "actions.iconography" || props.selected.id === "inputs.text" || props.selected.id === "menus.select" || props.selected.id === "navigation.glass-nav" || props.selected.id === "feedback.toast" || props.selected.id === "cards.health" || props.selected.id === "charts.health" || props.selected.id === "tables.base" || props.selected.id === "data.display" || props.selected.id === "media.upload" || props.selected.id === "motion.lab" || props.selected.id === "accessibility.lab" || props.selected.id === "patterns.app" || props.selected.id === "material.glass-experiments";
   const matrixModes = props.selected.id === "actions.buttons" ? ["Variants", "Sizes", "States", "Backgrounds"] : ["Variants", "Sizes", "States"];
 
   return (
@@ -441,6 +441,7 @@ function WorkbenchCanvas(props) {
 
 function CanvasMode(props) {
   if (props.selected.id === "patterns.app") return <AppStructureLibraryPage activeTab={props.activeTab} setActiveTab={props.setActiveTab} />;
+  if (props.selected.id === "material.glass-experiments") return <LiquidGlassStudioPage />;
   if (props.selected.status === "missing") return <MissingStory selected={props.selected} />;
   if (props.selected.id === "actions.buttons") return <ButtonLibraryPage />;
   if (props.selected.id === "actions.iconography") return <IconographyLibraryPage />;
@@ -493,6 +494,225 @@ function PreviewStory(props) {
   if (props.selected.id === "accessibility.lab") return <AccessibilityLabPreview state={props.accessibilityState} variant={props.accessibilityVariant} />;
   if (props.selected.id === "patterns.app") return <AppPatternPreview state={props.appPatternState} variant={props.appPatternVariant} />;
   return <MissingStory selected={props.selected} />;
+}
+
+const liquidStudioComponents = [
+  { id: "button", label: "Button", sub: "LiquidGlassButton", badge: "BU" },
+  { id: "icon", label: "Icon Button", sub: "LiquidGlassIconButton", badge: "IC" },
+  { id: "search", label: "Search", sub: "LiquidGlassSearch", badge: "SE" },
+  { id: "select", label: "Select", sub: "LiquidGlassSelect", badge: "SL" },
+  { id: "dock", label: "Dock", sub: "LiquidGlassDock", badge: "DO" },
+  { id: "tabbar", label: "Tab Bar", sub: "LiquidGlassTabBar", badge: "TA" },
+  { id: "popover", label: "Popover", sub: "LiquidGlassPopover", badge: "PO" },
+  { id: "dropdown", label: "Dropdown", sub: "LiquidGlassDropdown", badge: "DR" },
+  { id: "tooltip", label: "Tooltip", sub: "LiquidGlassTooltip", badge: "TO" },
+  { id: "card", label: "Card Controls", sub: "SoftMetalCard + glass controls", badge: "CA" },
+];
+
+function LiquidGlassStudioPage() {
+  const [active, setActive] = useState("button");
+  const [variant, setVariant] = useState("Frosted");
+  const [physics, setPhysics] = useState({
+    blur: 34,
+    refraction: 38,
+    chromatic: 25,
+    distortion: 12,
+    edge: 10,
+    specular: 12,
+    fresnel: 90,
+  });
+  const selected = liquidStudioComponents.find((item) => item.id === active) ?? liquidStudioComponents[0];
+  const setPhysicsValue = (key, value) => setPhysics((current) => ({ ...current, [key]: Number(value) }));
+  const physicsStyle = {
+    "--lg-blur": `${10 + physics.blur * 0.55}px`,
+    "--lg-alpha": `${0.18 + physics.blur / 420}`,
+    "--lg-refraction": `${physics.refraction / 100}`,
+    "--lg-chromatic": `${physics.chromatic / 1000}`,
+    "--lg-distortion": `${physics.distortion / 1000}`,
+    "--lg-edge": `${physics.edge / 100}`,
+    "--lg-specular": `${physics.specular / 100}`,
+    "--lg-fresnel": `${physics.fresnel / 100}`,
+  };
+
+  return (
+    <section className="liquid-studio" style={physicsStyle}>
+      <header className="liquid-studio-topbar">
+        <div>
+          <span>Liquid Glass Playground</span>
+          <h2>Component Studio</h2>
+        </div>
+        <div className="liquid-studio-status">
+          <div>
+            <span>Surface</span>
+            <strong>{selected.sub}</strong>
+          </div>
+          <strong>{selected.label}</strong>
+        </div>
+        <div className="liquid-studio-actions">
+          <button type="button">Docs</button>
+          <button className="is-on" type="button"><CircleCheck size={14} /> Video</button>
+          <button className="is-primary" type="button">Hide</button>
+        </div>
+      </header>
+
+      <div className="liquid-studio-grid">
+        <aside className="liquid-studio-rail" aria-label="Liquid glass components">
+          <div className="liquid-rail-heading">
+            <span>Components</span>
+            <strong>{liquidStudioComponents.length}</strong>
+          </div>
+          {liquidStudioComponents.map((item) => (
+            <button className={active === item.id ? "is-active" : ""} key={item.id} onClick={() => setActive(item.id)} type="button">
+              <span>{item.badge}</span>
+              <span>
+                <strong>{item.label}</strong>
+                <small>{item.sub}</small>
+              </span>
+            </button>
+          ))}
+        </aside>
+
+        <main className="liquid-stage" aria-label="Liquid glass preview">
+          <div className="liquid-stage-orbit">
+            <LiquidStudioPreview active={active} selected={selected} />
+          </div>
+        </main>
+
+        <aside className="liquid-physics" aria-label="Glass physics inspector">
+          <header>
+            <span>Playground</span>
+            <h3>Glass Physics</h3>
+          </header>
+          <label className="liquid-select-row">
+            <span>Glass variant</span>
+            <select onChange={(event) => setVariant(event.target.value)} value={variant}>
+              <option>Frosted</option>
+              <option>Thin</option>
+              <option>Strong</option>
+              <option>Reduced</option>
+            </select>
+          </label>
+          {[
+            ["blur", "Blur", 0, 70],
+            ["refraction", "Refraction", 0, 70],
+            ["chromatic", "Chromatic", 0, 60],
+            ["distortion", "Distortion", 0, 50],
+            ["edge", "Edge light", 0, 35],
+            ["specular", "Specular", 0, 35],
+            ["fresnel", "Fresnel", 35, 100],
+          ].map(([key, label, min, max]) => (
+            <label className="liquid-slider" key={key}>
+              <span>{label}<small>{physics[key] / (key === "chromatic" || key === "distortion" ? 1000 : 100)}</small></span>
+              <input max={max} min={min} onChange={(event) => setPhysicsValue(key, event.target.value)} type="range" value={physics[key]} />
+            </label>
+          ))}
+          <div className="liquid-usage">
+            <span>Current usage</span>
+            <code>{`<${selected.sub}
+  variant="${variant.toLowerCase()}"
+  blur={${(physics.blur / 100).toFixed(2)}}
+  refraction={${(physics.refraction / 100).toFixed(2)}}
+  edgeLight={${(physics.edge / 100).toFixed(2)}}
+/>`}</code>
+          </div>
+        </aside>
+      </div>
+    </section>
+  );
+}
+
+function LiquidStudioPreview({ active, selected }) {
+  if (active === "icon") {
+    return (
+      <div className="liquid-preview-stack is-compact">
+        <button className="liquid-glass-icon" type="button"><Search size={18} /></button>
+        <button className="liquid-glass-icon" type="button"><Filter size={18} /></button>
+        <button className="liquid-glass-icon" type="button"><Settings size={18} /></button>
+      </div>
+    );
+  }
+
+  if (active === "search") {
+    return (
+      <div className="liquid-glass-search">
+        <Search size={18} />
+        <span>Search biomarker, protocol, specialist...</span>
+        <Filter size={17} />
+      </div>
+    );
+  }
+
+  if (active === "select" || active === "dropdown") {
+    return (
+      <div className="liquid-preview-stack">
+        <button className="liquid-glass-menu" type="button">
+          <span>Recovery Plan</span>
+          <ArrowRight size={16} />
+        </button>
+        <div className="liquid-glass-popover">
+          <strong>Specialist review</strong>
+          <span>Review biomarkers with a professional.</span>
+        </div>
+      </div>
+    );
+  }
+
+  if (active === "dock" || active === "tabbar") {
+    return (
+      <nav className="liquid-glass-dock" aria-label={selected.label}>
+        {[
+          [Activity, "Today"],
+          [CalendarCheck, "Plan"],
+          [Gauge, "Progress"],
+          [MessageCircle, "Coach"],
+        ].map(([Icon, label], index) => (
+          <button className={index === 0 ? "is-active" : ""} key={label} type="button">
+            <Icon size={17} />
+            <span>{label}</span>
+          </button>
+        ))}
+      </nav>
+    );
+  }
+
+  if (active === "popover" || active === "tooltip") {
+    return (
+      <div className="liquid-preview-stack">
+        <button className="liquid-glass-button" type="button">Book analysis</button>
+        <div className="liquid-glass-popover">
+          <strong>Human guidance</strong>
+          <span>AI and professionals guide the same wellness plan.</span>
+        </div>
+      </div>
+    );
+  }
+
+  if (active === "card") {
+    return (
+      <article className="liquid-soft-card">
+        <span>Health score</span>
+        <strong>84</strong>
+        <p>Moderate strength session fits today.</p>
+        <button className="liquid-glass-button" type="button">Open review</button>
+      </article>
+    );
+  }
+
+  return (
+    <div className="liquid-focus-card">
+      <div>
+        <span>Focus session</span>
+        <strong>{selected.label}</strong>
+        <p>Design review and component refinement</p>
+      </div>
+      <b>42:18</b>
+      <div className="liquid-progress"><span /></div>
+      <div className="liquid-button-row">
+        <button className="liquid-glass-button" type="button">Pause</button>
+        <button className="liquid-glass-button is-danger" type="button">Stop</button>
+      </div>
+    </div>
+  );
 }
 
 function WorkbenchInspector(props) {

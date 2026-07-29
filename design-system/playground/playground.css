@@ -21,6 +21,527 @@ body { margin: 0; overflow: hidden; background: #07090b; }
   font-family: var(--recomp-font-sans);
 }
 
+/* Liquid Glass Studio -----------------------------------------------------
+   A focused lab for functional glass controls. The app language still uses
+   Soft Metal for core content and reserves Liquid Glass for control layers. */
+.liquid-studio {
+  min-height: calc(100dvh - 154px);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 16px;
+  margin: -10px;
+  color: #f7f8fb;
+}
+
+.liquid-studio-topbar {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(240px, 320px) auto;
+  align-items: center;
+  gap: 18px;
+  min-height: 78px;
+  padding: 18px 20px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 28px;
+  background: rgba(16, 9, 14, .72);
+  backdrop-filter: blur(24px) saturate(132%);
+  box-shadow: 0 24px 70px rgba(0,0,0,.32);
+}
+
+.liquid-studio-topbar span,
+.liquid-rail-heading span,
+.liquid-physics header span,
+.liquid-usage span {
+  display: block;
+  color: rgba(247,248,251,.58);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.liquid-studio-topbar h2 {
+  margin: 4px 0 0;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.liquid-studio-status {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 18px;
+  align-items: center;
+  min-height: 52px;
+  padding: 10px 14px;
+  border-radius: 16px;
+  background: rgba(255,255,255,.075);
+}
+
+.liquid-studio-status strong { font-size: 14px; }
+.liquid-studio-status div strong { color: #9bbcff; font-size: 12px; }
+
+.liquid-studio-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.liquid-studio-actions button {
+  min-height: 42px;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  color: inherit;
+  font: inherit;
+  font-weight: 800;
+  padding: 0 18px;
+}
+
+.liquid-studio-actions .is-on {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(65, 120, 210, .26);
+  border-color: rgba(115, 174, 255, .36);
+}
+
+.liquid-studio-actions .is-primary {
+  background: #f7f8fb;
+  color: #6c50f3;
+}
+
+.liquid-studio-grid {
+  min-height: 620px;
+  display: grid;
+  grid-template-columns: 260px minmax(360px, 1fr) 340px;
+  gap: 16px;
+}
+
+.liquid-studio-rail,
+.liquid-physics {
+  min-height: 0;
+  overflow: auto;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 24px;
+  background: rgba(12, 7, 11, .78);
+  backdrop-filter: blur(24px) saturate(128%);
+}
+
+.liquid-studio-rail {
+  padding: 18px 10px;
+}
+
+.liquid-rail-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 16px;
+}
+
+.liquid-rail-heading strong {
+  display: grid;
+  place-items: center;
+  min-width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.1);
+  color: rgba(247,248,251,.72);
+  font-size: 12px;
+}
+
+.liquid-studio-rail button {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  gap: 10px;
+  align-items: center;
+  min-height: 64px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.liquid-studio-rail button > span:first-child {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: rgba(255,255,255,.1);
+  color: rgba(247,248,251,.82);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.liquid-studio-rail button strong,
+.liquid-studio-rail button small {
+  display: block;
+}
+
+.liquid-studio-rail button small {
+  margin-top: 2px;
+  color: rgba(247,248,251,.5);
+  font-size: 11px;
+}
+
+.liquid-studio-rail button.is-active {
+  border-color: rgba(255,255,255,.16);
+  background: linear-gradient(135deg, rgba(255,255,255,.18), rgba(255,255,255,.07));
+}
+
+.liquid-studio-rail button.is-active > span:first-child {
+  background: #f7f8fb;
+  color: #1677ff;
+}
+
+.liquid-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 620px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 50% 16%, rgba(255, 246, 210, .38), transparent 22%),
+    radial-gradient(circle at 28% 34%, rgba(131, 87, 255, .22), transparent 30%),
+    linear-gradient(145deg, #191116, #0a0d12 52%, #151d22);
+}
+
+.liquid-stage::before,
+.liquid-stage::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.liquid-stage::before {
+  inset: 16% -10% auto;
+  height: 36%;
+  background:
+    linear-gradient(90deg, transparent, rgba(255,255,255,.15), transparent),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.16) 0 1px, transparent 1px 96px);
+  opacity: .42;
+  transform: skewY(-7deg);
+}
+
+.liquid-stage::after {
+  inset: auto 7% 12%;
+  height: 42%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,.56), transparent 62%);
+  filter: blur(20px);
+}
+
+.liquid-stage-orbit {
+  position: relative;
+  z-index: 1;
+  width: min(520px, 82%);
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+}
+
+.liquid-focus-card,
+.liquid-glass-search,
+.liquid-glass-menu,
+.liquid-glass-popover,
+.liquid-glass-dock,
+.liquid-glass-icon,
+.liquid-glass-button {
+  position: relative;
+  border: 1px solid rgba(255,255,255, calc(.18 + var(--lg-edge) * .8));
+  background:
+    linear-gradient(135deg, rgba(255,255,255, calc(.12 + var(--lg-refraction) * .16)), rgba(255,255,255, var(--lg-alpha))),
+    radial-gradient(circle at 30% 0%, rgba(255,255,255, calc(.2 + var(--lg-specular) * .5)), transparent 44%);
+  color: #fff;
+  backdrop-filter: blur(var(--lg-blur)) saturate(calc(136% + var(--lg-refraction) * 70%));
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255, calc(.18 + var(--lg-specular) * .5)),
+    inset 0 -1px 0 rgba(255,255,255, calc(.08 + var(--lg-fresnel) * .16)),
+    0 24px 70px rgba(0,0,0,.34);
+}
+
+.liquid-focus-card::after,
+.liquid-glass-search::after,
+.liquid-glass-menu::after,
+.liquid-glass-popover::after,
+.liquid-glass-dock::after,
+.liquid-glass-icon::after,
+.liquid-glass-button::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    linear-gradient(90deg, rgba(97, 214, 255, var(--lg-chromatic)), transparent 36%, rgba(255, 94, 176, var(--lg-chromatic))),
+    radial-gradient(circle at 50% 0%, rgba(255,255,255, calc(.1 + var(--lg-fresnel) * .18)), transparent 46%);
+  mix-blend-mode: screen;
+}
+
+.liquid-focus-card {
+  width: min(390px, 100%);
+  min-height: 224px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  border-radius: 24px;
+  padding: 28px 28px 24px;
+}
+
+.liquid-focus-card span,
+.liquid-soft-card span {
+  color: rgba(255,255,255,.66);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.liquid-focus-card strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 28px;
+  line-height: 1.05;
+}
+
+.liquid-focus-card p,
+.liquid-soft-card p {
+  margin: 18px 0 0;
+  color: rgba(255,255,255,.78);
+}
+
+.liquid-focus-card b {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.liquid-progress {
+  grid-column: 1 / -1;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.16);
+}
+
+.liquid-progress span {
+  display: block;
+  width: 64%;
+  height: 100%;
+  border-radius: inherit;
+  background: #66ef9d;
+}
+
+.liquid-button-row {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.liquid-glass-button {
+  min-height: 42px;
+  border-radius: 999px;
+  padding: 0 24px;
+  font: inherit;
+  font-weight: 800;
+}
+
+.liquid-glass-button.is-danger {
+  background:
+    linear-gradient(135deg, rgba(255, 117, 117, .22), rgba(255,255,255, var(--lg-alpha))),
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,.28), transparent 48%);
+}
+
+.liquid-preview-stack {
+  display: grid;
+  gap: 16px;
+  justify-items: center;
+}
+
+.liquid-preview-stack.is-compact {
+  grid-template-columns: repeat(3, auto);
+}
+
+.liquid-glass-icon {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+}
+
+.liquid-glass-search,
+.liquid-glass-menu {
+  width: min(430px, 100%);
+  min-height: 58px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 14px;
+  border-radius: 20px;
+  padding: 0 18px;
+}
+
+.liquid-glass-search span,
+.liquid-glass-popover span {
+  color: rgba(255,255,255,.68);
+}
+
+.liquid-glass-menu {
+  border: 0;
+  font: inherit;
+  font-weight: 800;
+}
+
+.liquid-glass-popover {
+  width: min(320px, 100%);
+  display: grid;
+  gap: 8px;
+  border-radius: 22px;
+  padding: 20px;
+}
+
+.liquid-glass-dock {
+  width: min(380px, 100%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  border-radius: 26px;
+  padding: 8px;
+}
+
+.liquid-glass-dock button {
+  min-height: 56px;
+  display: grid;
+  place-items: center;
+  gap: 4px;
+  border: 0;
+  border-radius: 18px;
+  background: transparent;
+  color: rgba(255,255,255,.62);
+  font: inherit;
+  font-size: 11px;
+}
+
+.liquid-glass-dock button.is-active {
+  background: rgba(255,255,255,.14);
+  color: #f7f8fb;
+}
+
+.liquid-soft-card {
+  width: min(330px, 100%);
+  display: grid;
+  gap: 12px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(31,38,45,.88), rgba(20,24,29,.92));
+  box-shadow: 0 24px 70px rgba(0,0,0,.36);
+  padding: 26px;
+}
+
+.liquid-soft-card strong {
+  font-size: 76px;
+  line-height: .9;
+}
+
+.liquid-soft-card .liquid-glass-button {
+  justify-self: start;
+}
+
+.liquid-physics {
+  padding: 18px 14px;
+}
+
+.liquid-physics header h3 {
+  margin: 4px 0 26px;
+  font-size: 23px;
+}
+
+.liquid-select-row {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  align-items: center;
+  gap: 14px;
+  min-height: 58px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+
+.liquid-select-row span,
+.liquid-slider > span {
+  color: rgba(247,248,251,.72);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.liquid-select-row select {
+  min-height: 34px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 10px;
+  background: rgba(20,24,29,.9);
+  color: inherit;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 0 10px;
+}
+
+.liquid-slider {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.liquid-slider > span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.liquid-slider small {
+  color: rgba(247,248,251,.45);
+  font-family: var(--recomp-font-mono, monospace);
+}
+
+.liquid-slider input {
+  width: 100%;
+  accent-color: #1677ff;
+}
+
+.liquid-usage {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 18px;
+  background: rgba(0,0,0,.32);
+  padding: 14px;
+}
+
+.liquid-usage code {
+  white-space: pre-wrap;
+  color: #d6e3ff;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+@media (max-width: 1180px) {
+  .liquid-studio-topbar,
+  .liquid-studio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .liquid-stage,
+  .liquid-studio-grid {
+    min-height: 0;
+  }
+}
+
 .workbench::before {
   content: "";
   position: fixed;
