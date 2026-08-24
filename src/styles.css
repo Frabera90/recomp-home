@@ -3369,7 +3369,7 @@ a {
 
 .open-gauge-phone {
   position: relative;
-  width: min(430px, 100vw);
+  width: min(430px, calc(100vw - 0px));
   height: min(932px, 100vh);
   overflow: hidden;
   border: 1px solid rgba(190, 230, 223, 0.16);
@@ -4961,27 +4961,78 @@ a {
 @media (max-width: 470px) {
   .open-gauge-stage {
     padding: 0;
+    min-height: 100dvh;
   }
 
   .open-gauge-phone {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     border: 0;
     border-radius: 0;
   }
 
   .open-gauge-content {
-    padding-inline: 24px;
-    padding-bottom: calc(158px + env(safe-area-inset-bottom, 0px));
+    padding-inline: 16px;
+    padding-top: max(44px, env(safe-area-inset-top, 0px));
+    padding-bottom: calc(150px + env(safe-area-inset-bottom, 0px));
   }
 
   .open-gauge-tabbar {
-    right: 24px;
-    left: 24px;
+    right: 16px;
+    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+    left: 16px;
+    height: 60px;
+    grid-template-columns: minmax(0, 1fr) 54px;
+    gap: 10px;
   }
 
   .open-gauge-action-popover {
-    right: 24px;
-    left: 24px;
+    right: 16px;
+    bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+    left: 16px;
+  }
+
+  .open-gauge-tabbar-main {
+    height: 60px;
+    padding: 5px;
+  }
+
+  .open-gauge-tabbar button {
+    min-height: 48px;
+    font-size: 10.5px;
+  }
+
+  .open-gauge-tabbar .open-gauge-plus {
+    width: 54px;
+    height: 54px;
+  }
+}
+
+@media (max-width: 390px) {
+  .open-gauge-content {
+    padding-inline: 14px;
+  }
+
+  .open-gauge-grid {
+    gap: 8px;
+  }
+
+  .open-gauge-metric-card {
+    padding: 15px 14px 14px;
+    border-radius: 23px 23px 25px 25px;
+  }
+
+  .open-gauge-card-value strong {
+    font-size: 35px;
+  }
+
+  .open-gauge-sparkline {
+    left: 14px;
+    width: calc(100% - 28px);
+  }
+
+  .open-gauge-delta-row {
+    right: 14px;
+    left: 14px;
   }
 }
